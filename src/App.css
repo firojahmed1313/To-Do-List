@@ -1,0 +1,133 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.main{
+  
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(148, 148, 156);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.todo_con{
+  width: 35%;
+  min-height: 70vh;
+  background-color: aliceblue;
+  border-radius: 15px;
+
+  
+}
+
+
+.hadeing{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(103, 103, 248);
+  background: transparent;
+  background-color: rgb(208, 161, 169);
+  padding: 6px 0px 3px 0px;
+  margin-bottom: 10px;
+
+}
+.h{
+  padding-left: 35px;
+}
+input{
+  text-align: center;
+  height: 40px;
+  
+  width: 75%;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+  outline:none;
+  border: 2px solid rgb(215, 108, 125);
+  border-radius: 10px;
+
+}
+.btn{
+  margin-top: 20px;
+  
+}
+.space{
+  margin-left: 10px;
+}
+.btn:hover{
+  background-color: rgb(90, 33, 43);
+}
+.btn1{
+  border: 2px solid green;
+  border-radius: 10px;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(237, 98, 121);
+  border-color: transparent;
+  margin-left: 20px;
+  text-align: center;
+  
+}
+.btn1:hover{
+  background-color: rgb(90, 33, 43);
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+  
+}
+
+.sameLine{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  
+  height: 40px;
+  margin-bottom: 15px;
+  width: 90%;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 20px;
+  border: none;
+  background: transparent;
+  outline:none;
+  border: 2px solid rgb(215, 108, 125);
+  border-radius: 10px;
+}
+.sameLine.butn{
+  
+  display: flex;
+  justify-items: end;
+
+}
+.list_items{
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  
+}
+
+.btn2{
+  background-color: rgb(205, 14, 46);
+}
