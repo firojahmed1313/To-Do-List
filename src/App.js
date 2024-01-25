@@ -8,6 +8,8 @@ import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import Button from '@mui/material/Button';
 import './App.css';
 import Todo from './Todo';
+import ChackFirebase from "./firebaseSetup/ChackFirebase";
+import Auth from "./firebaseSetup/Auth";
 function App() {
   const [listItems,newlistItems]= useState("");
   const [items,newitems] =useState([]);
@@ -104,6 +106,8 @@ function App() {
           <br/>
         </div>
         <Button variant="contained" onClick={clearAll}>Clear All</Button>
+        {<ChackFirebase/>}
+        <Auth/>
       </div>
     </>
   );
