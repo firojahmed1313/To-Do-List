@@ -10,6 +10,7 @@ import './App.css';
 import Todo from './Todo';
 import ChackFirebase from "./firebaseSetup/ChackFirebase";
 import Auth from "./firebaseSetup/Auth";
+import ReadWritecloudFirestore from "./firebaseSetup/ReadWritecloudFirestore";
 function App() {
   const [listItems,newlistItems]= useState("");
   const [items,newitems] =useState([]);
@@ -108,6 +109,7 @@ function App() {
         <Button variant="contained" onClick={clearAll}>Clear All</Button>
         {<ChackFirebase/>}
         <Auth/>
+        <ReadWritecloudFirestore/>
       </div>
     </>
   );
