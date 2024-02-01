@@ -107,9 +107,9 @@ function App() {
           <br/>
         </div>
         <Button variant="contained" onClick={clearAll}>Clear All</Button>
-        {<ChackFirebase/>}
+        {/*<ChackFirebase/>
         <Auth/>
-        <ReadWritecloudFirestore/>
+        <ReadWritecloudFirestore/>*/}
       </div>
     </>
   );
